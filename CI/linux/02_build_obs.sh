@@ -59,7 +59,7 @@ _configure_obs() {
         -DLINUX_PORTABLE=${PORTABLE_BUILD:-OFF} \
         -DENABLE_AJA=OFF \
         -DENABLE_NEW_MPEGTS_OUTPUT=OFF \
-        -DENABLE_WEBRTC=OFF \
+        -DENABLE_WEBRTC=ON \
         ${PIPEWIRE_OPTION} \
         ${YOUTUBE_OPTIONS} \
         ${TWITCH_OPTIONS} \

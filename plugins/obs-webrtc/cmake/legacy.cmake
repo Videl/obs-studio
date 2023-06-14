@@ -1,11 +1,6 @@
 project(obs-webrtc)
 
 option(ENABLE_WEBRTC "Enable WebRTC Output support" ON)
-if(NOT ENABLE_WEBRTC)
-  obs_status(DISABLED, "obs-webrtc")
-  return()
-endif()
-
 find_package(LibDataChannel REQUIRED)
 find_package(CURL REQUIRED)
 
